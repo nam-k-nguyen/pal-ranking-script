@@ -1,6 +1,5 @@
 const puppeteer = require("puppeteer");
 require('dotenv').config();
-const fs = require("fs/promises");
 
 var url4 = "https://webapps2.uc.edu/elce/Student/Position";
 
