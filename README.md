@@ -2,11 +2,9 @@
  
 A script written with Javascript to automate the job ranking process on the PAL system by the Univerity of Cincinnati.
 
----
+<br/>
 
 ## Usage 
-
-<br/>
 
 ### 1. Providing Input
 
@@ -24,8 +22,6 @@ const password = process.env.UC_PASSWORD; // UC password
 const positionsToRank = 10; // The number of positions to rank 
 ```
 
-<br/>
-
 ### 2. Running the script
 
 To run this script you must have 
@@ -39,8 +35,6 @@ npm install
 node index
 ```
 
-<br/>
-
 ### 3. Two-Factor Authentication
 
 A few seconds after login, you will be prompted by DUO Mobile 2FA to authenticate the login attempt by PuppeteerJS. Please click accept to continue.
@@ -49,14 +43,14 @@ If your DUO settings is set to push notification every time you login, no extra 
 
 If your DUO settings is set to ask for authentication method everytime you login, you need to select push notification in the browser then accept on DUO Mobile.
 
----
+<br/>
 
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first
 to discuss what you would like to change.
 
----
+<br/>
 
 ## License
 
