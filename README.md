@@ -1,6 +1,6 @@
 # PAL Ranking Script
  
-A script written with Javascript to automate the job ranking process on the PAL system by the Univerity of Cincinnati.
+A puppeteer script written with JavaScript to automate the job ranking process on the PAL system by the Univerity of Cincinnati.
 
 <br/>
 
